@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774765828991,
+  "lastUpdate": 1774809071534,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -218,6 +218,51 @@ window.BENCHMARK_DATA = {
             "range": "±20",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 3158ms, Q3: 3178ms\nAll times: 3144, 3151, 3152, 3154, 3155, 3158, 3158, 3161, 3161, 3162, 3165, 3169, 3171, 3171, 3172, 3178, 3184, 3189, 3191, 3193ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "81fc9ebd9e094c97882a893f766e898c70dc3b2d",
+          "message": "Merge pull request #1354 from yamadashy/chore/pr-resolve-outdated-auto-reply\n\nchore(agents): Skip confirmation and auto-reply on pr-resolve-outdated",
+          "timestamp": "2026-03-29T23:08:07+09:00",
+          "tree_id": "887b25858afed1fd09c61ab878862e899fe6a885",
+          "url": "https://github.com/gaby/repomix/commit/81fc9ebd9e094c97882a893f766e898c70dc3b2d"
+        },
+        "date": 1774809071099,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 1417,
+            "range": "±89",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 1377ms, Q3: 1466ms\nAll times: 1345, 1347, 1350, 1366, 1370, 1374, 1376, 1377, 1387, 1391, 1394, 1402, 1407, 1411, 1414, 1417, 1418, 1424, 1444, 1455, 1460, 1462, 1466, 1497, 1530, 1552, 1594, 1644, 1732, 1762ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 2317,
+            "range": "±19",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 2310ms, Q3: 2329ms\nAll times: 2297, 2300, 2302, 2308, 2308, 2310, 2312, 2314, 2316, 2316, 2317, 2317, 2320, 2323, 2328, 2329, 2335, 2342, 2355, 2368ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 3280,
+            "range": "±154",
+            "unit": "ms",
+            "extra": "Median of 19 runs\nQ1: 3224ms, Q3: 3378ms\nAll times: 3165, 3171, 3204, 3208, 3224, 3226, 3238, 3242, 3263, 3280, 3307, 3319, 3364, 3364, 3378, 3414, 3948, 4093, 4121ms"
           }
         ]
       }
