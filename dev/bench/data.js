@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775046718208,
+  "lastUpdate": 1775068255386,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -398,6 +398,51 @@ window.BENCHMARK_DATA = {
             "range": "±86",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 2820ms, Q3: 2906ms\nAll times: 2779, 2807, 2813, 2814, 2816, 2820, 2821, 2833, 2836, 2848, 2858, 2860, 2861, 2861, 2863, 2906, 2914, 2924, 2925, 2932ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d6e224a94df25c1bd06b23455296a70561266d8",
+          "message": "Merge pull request #1356 from yamadashy/perf/cache-empty-dir-paths\n\nperf(core): Cache empty directory paths to avoid redundant file search",
+          "timestamp": "2026-04-02T00:26:39+09:00",
+          "tree_id": "9f39d41e3bdcf3870204b7a48ffc12e284484cde",
+          "url": "https://github.com/gaby/repomix/commit/9d6e224a94df25c1bd06b23455296a70561266d8"
+        },
+        "date": 1775068254641,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 1843,
+            "range": "±181",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 1746ms, Q3: 1927ms\nAll times: 1433, 1475, 1498, 1554, 1644, 1666, 1705, 1746, 1753, 1754, 1783, 1808, 1808, 1811, 1830, 1843, 1854, 1856, 1860, 1861, 1871, 1893, 1927, 2031, 2143, 2176, 2183, 2186, 2228, 2278ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 2226,
+            "range": "±32",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 2213ms, Q3: 2245ms\nAll times: 2185, 2197, 2204, 2208, 2211, 2213, 2213, 2214, 2218, 2223, 2226, 2228, 2232, 2234, 2238, 2245, 2252, 2262, 2263, 2418ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 2643,
+            "range": "±42",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 2633ms, Q3: 2675ms\nAll times: 2603, 2613, 2623, 2625, 2625, 2633, 2633, 2638, 2640, 2642, 2643, 2653, 2654, 2658, 2668, 2675, 2684, 2685, 2727, 2740ms"
           }
         ]
       }
