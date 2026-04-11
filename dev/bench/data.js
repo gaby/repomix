@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775673067098,
+  "lastUpdate": 1775889070405,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -893,6 +893,51 @@ window.BENCHMARK_DATA = {
             "range": "±55",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 2436ms, Q3: 2491ms\nAll times: 2400, 2402, 2415, 2422, 2431, 2436, 2439, 2449, 2459, 2460, 2461, 2472, 2478, 2483, 2491, 2491, 2535, 2777, 2910, 3217ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "afbab35a6d9fee3ef9f99dc871d498d3d024716f",
+          "message": "Merge pull request #1436 from yamadashy/perf/lazy-load-heavy-modules\n\nperf(core): Lazy-load handlebars, fast-xml-builder, and @clack/prompts",
+          "timestamp": "2026-04-11T12:59:11+09:00",
+          "tree_id": "e029b0add1a0b86d923d238fcf85c197932b73d7",
+          "url": "https://github.com/gaby/repomix/commit/afbab35a6d9fee3ef9f99dc871d498d3d024716f"
+        },
+        "date": 1775889069543,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 1274,
+            "range": "±235",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 1203ms, Q3: 1438ms\nAll times: 1117, 1159, 1163, 1183, 1194, 1197, 1201, 1203, 1216, 1216, 1220, 1233, 1233, 1239, 1251, 1274, 1275, 1320, 1368, 1392, 1403, 1408, 1438, 1440, 1460, 1540, 1709, 1716, 1805, 1880ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 1781,
+            "range": "±41",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1757ms, Q3: 1798ms\nAll times: 1735, 1743, 1743, 1752, 1756, 1757, 1770, 1772, 1774, 1774, 1781, 1787, 1793, 1795, 1798, 1798, 1803, 1816, 1827, 1849ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 2421,
+            "range": "±25",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 2405ms, Q3: 2430ms\nAll times: 2365, 2378, 2395, 2395, 2403, 2405, 2407, 2412, 2414, 2419, 2421, 2424, 2424, 2424, 2427, 2430, 2437, 2441, 2458, 2465ms"
           }
         ]
       }
