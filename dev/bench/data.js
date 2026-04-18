@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776493845764,
+  "lastUpdate": 1776537004548,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -1208,6 +1208,51 @@ window.BENCHMARK_DATA = {
             "range": "±41",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1927ms, Q3: 1968ms\nAll times: 1917, 1919, 1920, 1923, 1924, 1927, 1927, 1929, 1932, 1933, 1937, 1942, 1950, 1950, 1959, 1968, 1969, 1979, 1981, 1981ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f2de8219ecf8a2283b38883aeffc38da980a588f",
+          "message": "Merge pull request #1493 from yamadashy/feat/observability-phase2\n\nfeat(server): Log pack options and validation reject reasons",
+          "timestamp": "2026-04-18T23:17:47+09:00",
+          "tree_id": "e643bd20dca6c1428c334812f554f5e42269ab71",
+          "url": "https://github.com/gaby/repomix/commit/f2de8219ecf8a2283b38883aeffc38da980a588f"
+        },
+        "date": 1776537004228,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 1485,
+            "range": "±317",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 1377ms, Q3: 1694ms\nAll times: 1165, 1182, 1227, 1234, 1257, 1298, 1315, 1377, 1378, 1380, 1391, 1406, 1425, 1429, 1461, 1485, 1501, 1502, 1601, 1611, 1648, 1673, 1694, 1804, 1816, 1858, 1858, 1890, 1918, 1933ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 1535,
+            "range": "±35",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1523ms, Q3: 1558ms\nAll times: 1494, 1506, 1509, 1509, 1515, 1523, 1526, 1527, 1533, 1534, 1535, 1537, 1538, 1542, 1547, 1558, 1572, 1598, 1818, 1823ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 2070,
+            "range": "±59",
+            "unit": "ms",
+            "extra": "Median of 19 runs\nQ1: 2053ms, Q3: 2112ms\nAll times: 2028, 2032, 2039, 2047, 2053, 2054, 2054, 2055, 2064, 2070, 2077, 2078, 2092, 2109, 2112, 2123, 2129, 2139, 2139ms"
           }
         ]
       }
