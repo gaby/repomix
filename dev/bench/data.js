@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776623479139,
+  "lastUpdate": 1776969040313,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -1343,6 +1343,51 @@ window.BENCHMARK_DATA = {
             "range": "±18",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1807ms, Q3: 1825ms\nAll times: 1799, 1799, 1801, 1803, 1805, 1807, 1812, 1812, 1812, 1813, 1813, 1814, 1819, 1819, 1820, 1825, 1830, 1833, 1850, 1852ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "99ea7d2de7a5730498cac249c70f520e485cd92a",
+          "message": "Merge pull request #1505 from yamadashy/chore/temp-disable-website-auto-pack\n\nchore(website): Temporarily disable auto-pack on repo query param",
+          "timestamp": "2026-04-24T00:44:21+09:00",
+          "tree_id": "87a8740ca2718ea06aada55e42ae49584c201325",
+          "url": "https://github.com/gaby/repomix/commit/99ea7d2de7a5730498cac249c70f520e485cd92a"
+        },
+        "date": 1776969039979,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 880,
+            "range": "±53",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 866ms, Q3: 919ms\nAll times: 847, 851, 851, 859, 862, 864, 865, 866, 868, 868, 877, 878, 878, 879, 879, 880, 885, 885, 900, 903, 917, 918, 919, 933, 943, 974, 983, 985, 1015, 1119ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 1376,
+            "range": "±21",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1362ms, Q3: 1383ms\nAll times: 1343, 1349, 1352, 1355, 1359, 1362, 1362, 1365, 1373, 1374, 1376, 1376, 1377, 1380, 1381, 1383, 1384, 1388, 1391, 1398ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1967,
+            "range": "±44",
+            "unit": "ms",
+            "extra": "Median of 19 runs\nQ1: 1936ms, Q3: 1980ms\nAll times: 1906, 1906, 1928, 1934, 1936, 1942, 1948, 1951, 1958, 1967, 1971, 1972, 1975, 1977, 1980, 1982, 1987, 2045, 2209ms"
           }
         ]
       }
