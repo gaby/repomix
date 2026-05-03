@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777789955762,
+  "lastUpdate": 1777811464013,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -1703,6 +1703,51 @@ window.BENCHMARK_DATA = {
             "range": "±269",
             "unit": "ms",
             "extra": "Median of 19 runs\nQ1: 1822ms, Q3: 2091ms\nAll times: 1795, 1798, 1801, 1804, 1822, 1829, 1833, 1847, 1860, 1865, 1899, 1945, 2000, 2086, 2091, 2137, 2314, 2459, 2799ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "48f0a3df9c0b30266a532d1e7e95ac6372650a24",
+          "message": "Merge pull request #1537 from yamadashy/docs/seo-llmo-improvements\n\ndocs(website): Improve SEO and LLM documentation",
+          "timestamp": "2026-05-03T20:29:50+09:00",
+          "tree_id": "ff7d3e72fd1dbf6e16b1f90f21de4e6b1b3af93f",
+          "url": "https://github.com/gaby/repomix/commit/48f0a3df9c0b30266a532d1e7e95ac6372650a24"
+        },
+        "date": 1777811463691,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 5769,
+            "range": "±2093",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 4581ms, Q3: 6674ms\nAll times: 3554, 3561, 3846, 3864, 4042, 4431, 4439, 4581, 4589, 4982, 5055, 5320, 5361, 5575, 5597, 5769, 5840, 5971, 6074, 6289, 6514, 6537, 6674, 6685, 6698, 6724, 6791, 6817, 6907, 6983ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 4365,
+            "range": "±342",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 4075ms, Q3: 4417ms\nAll times: 4026, 4034, 4035, 4035, 4056, 4075, 4082, 4085, 4091, 4354, 4365, 4377, 4415, 4416, 4416, 4417, 4423, 4429, 4436, 4441ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1845,
+            "range": "±112",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1801ms, Q3: 1913ms\nAll times: 1766, 1775, 1782, 1790, 1800, 1801, 1802, 1816, 1824, 1840, 1845, 1858, 1870, 1871, 1876, 1913, 1921, 2170, 2379, 2611ms"
           }
         ]
       }
