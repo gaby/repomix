@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778394566856,
+  "lastUpdate": 1778438139607,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -2018,6 +2018,51 @@ window.BENCHMARK_DATA = {
             "range": "±23",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1742ms, Q3: 1765ms\nAll times: 1725, 1731, 1732, 1737, 1739, 1742, 1743, 1751, 1755, 1756, 1757, 1757, 1757, 1759, 1760, 1765, 1767, 1773, 1782, 1800ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e27d8be1c4cb8cab511070724cb7f030a84e1fe2",
+          "message": "Merge pull request #1565 from yamadashy/chore/remove-agent-memory-skill\n\nchore(skills): Remove agent-memory skill in favor of agent-carnet",
+          "timestamp": "2026-05-10T23:13:25+09:00",
+          "tree_id": "3127d54a54fa0cc20c2cb0cea6dcef6c29f97d4d",
+          "url": "https://github.com/gaby/repomix/commit/e27d8be1c4cb8cab511070724cb7f030a84e1fe2"
+        },
+        "date": 1778438139253,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 1259,
+            "range": "±271",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 1084ms, Q3: 1355ms\nAll times: 873, 892, 899, 914, 919, 942, 1000, 1084, 1130, 1165, 1172, 1175, 1196, 1221, 1227, 1259, 1281, 1301, 1321, 1323, 1330, 1337, 1355, 1357, 1360, 1401, 1402, 1410, 1452, 1480ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 1328,
+            "range": "±23",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1317ms, Q3: 1340ms\nAll times: 1300, 1302, 1310, 1313, 1316, 1317, 1319, 1320, 1321, 1324, 1328, 1331, 1332, 1333, 1337, 1340, 1341, 1343, 1349, 1362ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 2248,
+            "range": "±30",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 2231ms, Q3: 2261ms\nAll times: 2206, 2212, 2213, 2215, 2223, 2231, 2232, 2238, 2247, 2247, 2248, 2252, 2254, 2260, 2261, 2261, 2265, 2289, 2289, 2305ms"
           }
         ]
       }
