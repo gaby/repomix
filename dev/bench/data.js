@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778438139607,
+  "lastUpdate": 1778934674838,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -2063,6 +2063,51 @@ window.BENCHMARK_DATA = {
             "range": "±30",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 2231ms, Q3: 2261ms\nAll times: 2206, 2212, 2213, 2215, 2223, 2231, 2232, 2238, 2247, 2247, 2248, 2252, 2254, 2260, 2261, 2261, 2265, 2289, 2289, 2305ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dc14555d7f4e24c920b1df3a456a8e9f5d607320",
+          "message": "Merge pull request #1575 from yamadashy/test/auto-perf-regression-guard\n\ntest(core): Add regression-guard specs against auto-perf-tuning silent breakages",
+          "timestamp": "2026-05-16T18:14:13+09:00",
+          "tree_id": "09d215cfa38e00f25452cad23e714a3a6a71ef5d",
+          "url": "https://github.com/gaby/repomix/commit/dc14555d7f4e24c920b1df3a456a8e9f5d607320"
+        },
+        "date": 1778934674503,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 736,
+            "range": "±161",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 658ms, Q3: 819ms\nAll times: 576, 580, 591, 614, 618, 619, 633, 658, 673, 692, 693, 701, 725, 730, 733, 736, 742, 747, 760, 782, 797, 807, 819, 821, 824, 825, 901, 916, 924, 936ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 1005,
+            "range": "±26",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 992ms, Q3: 1018ms\nAll times: 977, 978, 978, 981, 983, 992, 996, 997, 1000, 1000, 1005, 1006, 1009, 1013, 1014, 1018, 1021, 1021, 1026, 1034ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1266,
+            "range": "±70",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1240ms, Q3: 1310ms\nAll times: 1216, 1217, 1220, 1232, 1235, 1240, 1240, 1254, 1254, 1266, 1266, 1273, 1275, 1278, 1310, 1310, 1320, 1427, 1513, 1527ms"
           }
         ]
       }
