@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779388301251,
+  "lastUpdate": 1779625796687,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -2198,6 +2198,51 @@ window.BENCHMARK_DATA = {
             "range": "±25",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1022ms, Q3: 1047ms\nAll times: 1006, 1012, 1014, 1016, 1018, 1022, 1023, 1023, 1026, 1027, 1035, 1044, 1044, 1045, 1046, 1047, 1053, 1053, 1059, 1069ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b2e60fd70b31d0114b979d29760f1e19a04c211c",
+          "message": "Merge pull request #1596 from yamadashy/docs/privacy-turnstile-disclosure\n\ndocs(website): Disclose Cloudflare Turnstile in privacy policy",
+          "timestamp": "2026-05-24T17:14:13+09:00",
+          "tree_id": "ce2e3b2aacd20a1e683a437ff96ad89ee975564c",
+          "url": "https://github.com/gaby/repomix/commit/b2e60fd70b31d0114b979d29760f1e19a04c211c"
+        },
+        "date": 1779625795781,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 475,
+            "range": "±21",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 469ms, Q3: 490ms\nAll times: 454, 460, 461, 462, 463, 464, 467, 469, 469, 470, 471, 471, 471, 474, 475, 475, 475, 476, 479, 483, 486, 487, 490, 491, 495, 499, 509, 546, 551, 561ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 737,
+            "range": "±31",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 729ms, Q3: 760ms\nAll times: 720, 723, 724, 726, 727, 729, 731, 731, 731, 736, 737, 739, 740, 740, 751, 760, 761, 767, 780, 812ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1143,
+            "range": "±52",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1124ms, Q3: 1176ms\nAll times: 1117, 1119, 1122, 1122, 1124, 1124, 1127, 1131, 1141, 1143, 1143, 1144, 1146, 1148, 1164, 1176, 1187, 1207, 1211, 1286ms"
           }
         ]
       }
