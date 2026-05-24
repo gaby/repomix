@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779625796687,
+  "lastUpdate": 1779647392008,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -2243,6 +2243,51 @@ window.BENCHMARK_DATA = {
             "range": "±52",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1124ms, Q3: 1176ms\nAll times: 1117, 1119, 1122, 1122, 1124, 1124, 1127, 1131, 1141, 1143, 1143, 1144, 1146, 1148, 1164, 1176, 1187, 1207, 1211, 1286ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "132f1b87d25f43d277a2cfd178f221a1f6190be2",
+          "message": "Merge pull request #1598 from yamadashy/fix/issue-triage-prompt-injection\n\nchore(ci): harden issue triage workflow with least-privilege split",
+          "timestamp": "2026-05-24T22:59:55+09:00",
+          "tree_id": "adeca105d532dbb3b400a85779e37cc3bb102bec",
+          "url": "https://github.com/gaby/repomix/commit/132f1b87d25f43d277a2cfd178f221a1f6190be2"
+        },
+        "date": 1779647391535,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 472,
+            "range": "±46",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 458ms, Q3: 504ms\nAll times: 443, 447, 449, 450, 454, 457, 457, 458, 458, 458, 460, 464, 464, 467, 467, 472, 473, 479, 481, 492, 498, 501, 504, 507, 507, 519, 530, 534, 561, 629ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 775,
+            "range": "±19",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 768ms, Q3: 787ms\nAll times: 750, 754, 757, 761, 764, 768, 769, 771, 774, 774, 775, 779, 781, 782, 784, 787, 792, 800, 800, 802ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1010,
+            "range": "±23",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1007ms, Q3: 1030ms\nAll times: 990, 994, 997, 1000, 1003, 1007, 1008, 1008, 1010, 1010, 1010, 1016, 1026, 1027, 1029, 1030, 1033, 1038, 1043, 1071ms"
           }
         ]
       }
