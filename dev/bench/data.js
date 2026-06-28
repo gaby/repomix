@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782585026367,
+  "lastUpdate": 1782649860190,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -3233,6 +3233,51 @@ window.BENCHMARK_DATA = {
             "range": "±167",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1060ms, Q3: 1227ms\nAll times: 1047, 1051, 1052, 1056, 1059, 1060, 1064, 1064, 1066, 1074, 1077, 1107, 1177, 1204, 1209, 1227, 1229, 1231, 1232, 1522ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c6f19e4d46f3706a9836ecdc34b9461fc1d746ae",
+          "message": "Merge pull request #1677 from yamadashy/docs/output-patterns-i18n\n\ndocs(website): Translate output.patterns section into 14 locales",
+          "timestamp": "2026-06-28T20:38:02+09:00",
+          "tree_id": "a3657c77caf09b8d6dec15841fba9b2c3d40e8a7",
+          "url": "https://github.com/gaby/repomix/commit/c6f19e4d46f3706a9836ecdc34b9461fc1d746ae"
+        },
+        "date": 1782649859848,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 524,
+            "range": "±28",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 506ms, Q3: 534ms\nAll times: 499, 499, 500, 500, 501, 503, 505, 506, 507, 508, 509, 510, 513, 514, 519, 524, 529, 530, 531, 532, 533, 534, 534, 539, 539, 554, 560, 568, 587, 594ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 923,
+            "range": "±24",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 911ms, Q3: 935ms\nAll times: 897, 904, 904, 907, 908, 911, 914, 914, 919, 920, 923, 930, 930, 931, 931, 935, 935, 944, 947, 948ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1142,
+            "range": "±25",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1135ms, Q3: 1160ms\nAll times: 1121, 1121, 1130, 1133, 1133, 1135, 1138, 1138, 1140, 1140, 1142, 1143, 1144, 1148, 1149, 1160, 1162, 1164, 1173, 1175ms"
           }
         ]
       }
