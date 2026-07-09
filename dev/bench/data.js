@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783276177546,
+  "lastUpdate": 1783622156115,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -3593,6 +3593,51 @@ window.BENCHMARK_DATA = {
             "range": "±13",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1185ms, Q3: 1198ms\nAll times: 1161, 1170, 1172, 1177, 1184, 1185, 1185, 1190, 1192, 1193, 1193, 1196, 1196, 1196, 1196, 1198, 1203, 1207, 1208, 1209ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ab81efd8e7e99bc3ae3a897d89e0790e4c999f4f",
+          "message": "Merge pull request #1711 from yamadashy/refactor/token-count-tree-typing\n\nrefactor(core): Use a discriminated node type for the token count tree",
+          "timestamp": "2026-07-10T00:31:04+09:00",
+          "tree_id": "04196f6bc36e5c76dfe9ee93e97446575d697fa5",
+          "url": "https://github.com/gaby/repomix/commit/ab81efd8e7e99bc3ae3a897d89e0790e4c999f4f"
+        },
+        "date": 1783622155082,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 725,
+            "range": "±93",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 654ms, Q3: 747ms\nAll times: 569, 575, 578, 581, 609, 620, 630, 654, 657, 674, 674, 678, 688, 711, 723, 725, 727, 728, 728, 731, 734, 734, 747, 795, 802, 816, 817, 839, 850, 926ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 863,
+            "range": "±29",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 847ms, Q3: 876ms\nAll times: 834, 840, 842, 845, 846, 847, 848, 853, 859, 862, 863, 863, 868, 874, 874, 876, 876, 878, 893, 920ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1134,
+            "range": "±31",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1127ms, Q3: 1158ms\nAll times: 1104, 1115, 1118, 1118, 1121, 1127, 1130, 1132, 1132, 1133, 1134, 1137, 1138, 1142, 1144, 1158, 1162, 1163, 1219, 1288ms"
           }
         ]
       }
