@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784140312983,
+  "lastUpdate": 1784356252948,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -3863,6 +3863,51 @@ window.BENCHMARK_DATA = {
             "range": "±35",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1209ms, Q3: 1244ms\nAll times: 1175, 1192, 1194, 1198, 1203, 1209, 1218, 1220, 1222, 1231, 1234, 1235, 1237, 1239, 1243, 1244, 1245, 1246, 1247, 1286ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "498bc81b41e5c8f6414df827f2140fa1a0ce3264",
+          "message": "Merge pull request #1731 from yamadashy/fix/website-cls\n\nfix(website): Reserve layout space for sponsor images and nav star button",
+          "timestamp": "2026-07-18T15:10:10+09:00",
+          "tree_id": "800fad21690c03784e68e594a18cbcc4f33ad2e2",
+          "url": "https://github.com/gaby/repomix/commit/498bc81b41e5c8f6414df827f2140fa1a0ce3264"
+        },
+        "date": 1784356251999,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 570,
+            "range": "±51",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 557ms, Q3: 608ms\nAll times: 529, 541, 543, 553, 553, 554, 556, 557, 560, 563, 563, 563, 567, 568, 568, 570, 570, 573, 574, 579, 582, 595, 608, 630, 630, 635, 717, 718, 726, 792ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 939,
+            "range": "±26",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 931ms, Q3: 957ms\nAll times: 905, 913, 924, 924, 929, 931, 934, 937, 939, 939, 939, 951, 951, 951, 953, 957, 959, 959, 987, 999ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1304,
+            "range": "±28",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1289ms, Q3: 1317ms\nAll times: 1274, 1282, 1282, 1283, 1286, 1289, 1293, 1294, 1296, 1304, 1304, 1304, 1306, 1314, 1316, 1317, 1325, 1330, 1341, 1346ms"
           }
         ]
       }
