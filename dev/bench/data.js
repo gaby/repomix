@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784658666984,
+  "lastUpdate": 1784744929639,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -4133,6 +4133,51 @@ window.BENCHMARK_DATA = {
             "range": "±13",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1239ms, Q3: 1252ms\nAll times: 1227, 1228, 1231, 1233, 1239, 1239, 1241, 1241, 1242, 1245, 1247, 1247, 1249, 1249, 1251, 1252, 1253, 1254, 1255, 1255ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "distinct": true,
+          "id": "e2ca68c87b54edc178bc4643e71719a7ab987f8a",
+          "message": "docs: Polish v1.17.0 release notes\n\nEditorial pass on the already-published notes: drop an unverifiable\n\"most real projects\" claim, clarify why outputPatterns matters for\nremote repos, add the MCP docs link, split the Markdown-fix PR numbers\nonto their bullets, and reword the processors default-deny line.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>",
+          "timestamp": "2026-07-22T22:41:50+09:00",
+          "tree_id": "ea03969e937f99b5686dc311a901339dc4b971e0",
+          "url": "https://github.com/gaby/repomix/commit/e2ca68c87b54edc178bc4643e71719a7ab987f8a"
+        },
+        "date": 1784744929249,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 868,
+            "range": "±83",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 817ms, Q3: 900ms\nAll times: 769, 784, 792, 804, 804, 808, 816, 817, 820, 824, 834, 836, 838, 841, 846, 868, 869, 872, 873, 880, 881, 892, 900, 912, 918, 925, 941, 969, 1006, 1013ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 908,
+            "range": "±28",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 898ms, Q3: 926ms\nAll times: 881, 890, 896, 897, 898, 898, 901, 902, 904, 906, 908, 908, 909, 915, 923, 926, 931, 931, 942, 968ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1279,
+            "range": "±40",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1267ms, Q3: 1307ms\nAll times: 1248, 1258, 1260, 1266, 1267, 1267, 1269, 1271, 1271, 1275, 1279, 1280, 1288, 1300, 1307, 1307, 1308, 1393, 1422, 1509ms"
           }
         ]
       }
