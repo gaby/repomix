@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786451425718,
+  "lastUpdate": 1786796992497,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -4628,6 +4628,51 @@ window.BENCHMARK_DATA = {
             "range": "±38",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1330ms, Q3: 1368ms\nAll times: 1310, 1311, 1314, 1314, 1327, 1330, 1331, 1344, 1344, 1350, 1355, 1355, 1362, 1365, 1367, 1368, 1369, 1371, 1372, 1375ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7bbf052a48e942315deabdf146e62fd0fc1f091a",
+          "message": "Merge pull request #1775 from yamadashy/fix/gitignore-backslash-crash\n\ntest(core): Add regression tests for the Windows .gitignore backslash crash",
+          "timestamp": "2026-08-15T17:47:15+09:00",
+          "tree_id": "2510df8461dd29d9ed2276ba29ff1d8b5029530a",
+          "url": "https://github.com/gaby/repomix/commit/7bbf052a48e942315deabdf146e62fd0fc1f091a"
+        },
+        "date": 1786796991938,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 955,
+            "range": "±169",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 897ms, Q3: 1066ms\nAll times: 811, 830, 839, 852, 876, 883, 884, 897, 899, 902, 904, 912, 949, 949, 952, 955, 976, 983, 994, 1010, 1016, 1065, 1066, 1088, 1089, 1089, 1124, 1135, 1146, 1223ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 923,
+            "range": "±13",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 914ms, Q3: 927ms\nAll times: 889, 893, 904, 905, 906, 914, 917, 917, 918, 923, 923, 924, 925, 925, 927, 927, 928, 950, 954, 960ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1282,
+            "range": "±32",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1263ms, Q3: 1295ms\nAll times: 1241, 1249, 1254, 1258, 1260, 1263, 1269, 1271, 1271, 1281, 1282, 1283, 1283, 1283, 1284, 1295, 1295, 1303, 1307, 1310ms"
           }
         ]
       }
