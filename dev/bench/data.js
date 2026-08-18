@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786796992497,
+  "lastUpdate": 1787077832027,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -4673,6 +4673,51 @@ window.BENCHMARK_DATA = {
             "range": "±32",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1263ms, Q3: 1295ms\nAll times: 1241, 1249, 1254, 1258, 1260, 1263, 1269, 1271, 1271, 1281, 1282, 1283, 1283, 1283, 1284, 1295, 1295, 1303, 1307, 1310ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c898ff0b3612bc6222c703c965d2468ac9ead952",
+          "message": "Merge pull request #1806 from yamadashy/renovate/root-non-major-dependencies\n\nfix(deps): update root non-major dependencies",
+          "timestamp": "2026-08-19T00:48:13+09:00",
+          "tree_id": "20485ba094b37062f27498f32396e9d61560d1bb",
+          "url": "https://github.com/gaby/repomix/commit/c898ff0b3612bc6222c703c965d2468ac9ead952"
+        },
+        "date": 1787077830688,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 908,
+            "range": "±132",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 824ms, Q3: 956ms\nAll times: 700, 702, 746, 789, 801, 811, 822, 824, 837, 842, 865, 867, 869, 883, 899, 908, 910, 913, 925, 937, 946, 953, 956, 962, 983, 985, 1003, 1007, 1017, 1021ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 626,
+            "range": "±21",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 615ms, Q3: 636ms\nAll times: 609, 611, 611, 612, 614, 615, 616, 619, 620, 625, 626, 631, 633, 634, 635, 636, 638, 647, 648, 666ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1329,
+            "range": "±31",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1314ms, Q3: 1345ms\nAll times: 1286, 1291, 1304, 1313, 1314, 1314, 1317, 1318, 1319, 1323, 1329, 1332, 1334, 1337, 1337, 1345, 1351, 1351, 1352, 1384ms"
           }
         ]
       }
