@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789842590046,
+  "lastUpdate": 1789907438752,
   "repoUrl": "https://github.com/gaby/repomix",
   "entries": {
     "Repomix Performance": [
@@ -5348,6 +5348,51 @@ window.BENCHMARK_DATA = {
             "range": "±36",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 687ms, Q3: 723ms\nAll times: 667, 671, 678, 683, 685, 687, 688, 689, 693, 694, 702, 703, 704, 706, 722, 723, 729, 731, 741, 767ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d80c7d16d257a6f0734ef571528fee17a9b4e279",
+          "message": "Merge pull request #1749 from serhiizghama/fix/full-directory-structure-drops-noninc-files\n\nfix(output): keep non-included files in --include-full-directory-structure tree",
+          "timestamp": "2026-09-20T16:27:59+09:00",
+          "tree_id": "f8e088b66d2c17be03418991afc7b257c229e924",
+          "url": "https://github.com/gaby/repomix/commit/d80c7d16d257a6f0734ef571528fee17a9b4e279"
+        },
+        "date": 1789907437518,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 795,
+            "range": "±174",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 719ms, Q3: 893ms\nAll times: 684, 688, 702, 704, 707, 715, 719, 719, 721, 738, 754, 766, 768, 774, 792, 795, 797, 801, 830, 833, 842, 854, 893, 894, 905, 912, 918, 1025, 1029, 1078ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 987,
+            "range": "±44",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 976ms, Q3: 1020ms\nAll times: 951, 956, 970, 971, 976, 976, 980, 981, 983, 987, 987, 990, 994, 1001, 1010, 1020, 1036, 1130, 1139, 1265ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1322,
+            "range": "±18",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1313ms, Q3: 1331ms\nAll times: 1298, 1301, 1308, 1312, 1313, 1313, 1318, 1320, 1320, 1321, 1322, 1322, 1328, 1329, 1330, 1331, 1336, 1338, 1339, 1347ms"
           }
         ]
       }
